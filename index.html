@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Portifólio</title>
+</head>
+<body>
+    <header>
+        <h1>Portifólio</h1>
+        <nav>
+            <ul>
+                <a href="#sobremim">Sobre Mim</a>
+                <a href="#contato">Contato</a>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div id="intro">
+            <div id="apresentacao">
+                <p>Olá, seja ben-vindo(a) ao meu portifólio!</p>
+                <p>Meu nome é <span>Robson Milioli</span> e eus sou um desenvolvedor web</p>
+            </div>
+            <div id="redes-sociais">
+                <a href="#">
+                    <img src="./imagens/iconGitHub.png" alt="GitHub">
+                </a>
+                <a href="#">
+                    <img src="./imagens/iconLinkdin.png" alt="Linkdin">
+                </a>
+            </div>
+            <a href="#sobreMim">
+                <button>Conheça mais sobre mim</button>
+            </a>
+        </div>
+
+        <div id="img-dev">
+            <img src="./imagens/grapy-software.png" alt="Imagem Dev">
+        </div>
+    </main>
+    <section id="sobreMim">
+        <div id="resumo">
+            <h2>Sobre Mim</h2>
+            <p>
+                Meu nome é Robson Milioli estudo desenvolvimento web desde abril de 2025. Comecei a estudar HTML e CSS e hoje tenho
+                conhecimento de diversas tecnologia. <br><br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, magnam. Dolorum sed vel sapiente ratione in fugiat ut eum ea quisquam voluptatem, incidunt corrupti facere laboriosam voluptatibus consectetur itaque iure.
+            </p>
+        </div>
+        <div id="meusConhecimentos">
+            <h2>Meus Conhecimentos</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ul>
+
+        </div>
+
+    </section>
+
+    <section id="contato">
+        <h2>Você pode me enviar uma mensagem</h2>
+        <p>
+            Preencha o seu nome, seu email e escreva a mensagem que deseja enviar para mim. Logo quando puder, irei te responder. <br><br>
+            Desde já, agradeço o seu contato!
+        </p>
+
+        <form>
+            <label for="nome">Nome:</label><br>
+            <input type="text" id="nome" name="nome" required><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="mensagem">Mensagem</label><br>
+            <textarea name="mensagem" id="mensagem" rows="4" cols="50" required></textarea><br><br>
+
+            <input type="submit" id="btnEnviar" value="Enviar">
+
+        </form>
+
+    </section>
+
+    <script src="./script.js"></script>
+    
+</body>
+</html>
